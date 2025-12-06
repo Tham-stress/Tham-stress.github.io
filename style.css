@@ -69,3 +69,9 @@ footer{
     color: aliceblue;
     text-shadow: 0 0 10px rgb(47, 35, 49);
 }
+
+
+.text:hover {
+  color: rgb(221, 161, 211);
+
+}
