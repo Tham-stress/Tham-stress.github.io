@@ -2,7 +2,9 @@ body{
     background: linear-gradient(to left top , rgb(43, 43, 43), rgb(94, 40, 40));
     height: 100vh;
     width: 100vw;
-    font-family: Consolas;  
+    font-family: Consolas; 
+    margin: 0;
+    padding: 0; 
 }
 
 #container{
@@ -49,4 +51,21 @@ img{
     color: aliceblue;
     font-size: 30px;
     text-decoration: none;
+}
+
+#decoration{
+    position: fixed;
+    z-index: -1;
+    background-color: rgb(247, 220, 249);
+    width: 150%;
+    height: 150%;
+    top: 432px;
+    bottom: 0;
+    opacity: 0.2;
+    border-radius: 50%;
+}
+
+footer{
+    color: aliceblue;
+    text-shadow: 0 0 10px rgb(47, 35, 49);
 }
