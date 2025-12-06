@@ -1,3 +1,52 @@
 body{
-    background-color: red;
+    background: linear-gradient(to left top , rgb(43, 43, 43), rgb(94, 40, 40));
+    height: 100vh;
+    width: 100vw;
+    font-family: Consolas;  
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    weight: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+img{
+    border-radius: 50%;
+    border: 10px solid;
+    border-color: rgb(236, 192, 228);
+    box-shadow: 0px 0px 25px rgb(202, 99, 163);
+
+}
+
+#IconText{
+    color: white;
+    text-shadow: 0px 0px 10px rgb(206, 135, 166);
+    text-align: center;
+    
+}
+
+#textcontainer{
+    display: flex;
+    justify-content: space-between
+}
+
+.textinput{
+  margin: 30px;
+  padding: 20px;
+  display: block;
+  background-image: linear-gradient(to left top , rgb(155, 91, 120), rgb(218, 170, 184));
+  color: aliceblue;
+  border-radius: 40px;
+  box-shadow: 0 0 15px rgb(61, 50, 50);
+  text-shadow: 0 0 15px rgb(54, 15, 15);
+}
+
+.text{
+    color: aliceblue;
+    font-size: 30px;
+    text-decoration: none;
 }
