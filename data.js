@@ -11,12 +11,11 @@ export const aboutme =
 
 
 
-export const portfolio =[
+export const portfolio =
 {
     name: "PSU-Youth StartUp Pitching Stage 2025",
-    img: "port.img/port1.jpg",
+    img: "./port.img/port1.jpg",
     description: "โครงการแข่งขันการสื่อสารทางวิทยาศาสตร์-วิจัย-STEAM-นวัตกรรม มุ่งสู่เยาวชนสตาร์ทอัพ ระดับภาคใต้ ระดับมัธยมศึกษา (ประเภททีม)",
     role: "คนปั้น model,คนทำ Porposal,present"
 }
 
-]

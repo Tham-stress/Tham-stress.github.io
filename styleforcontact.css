@@ -34,3 +34,24 @@ body{
     color: azure;
     text-shadow: 0 0px 15px rgb(45, 10, 22);
 }
+
+.typelink:hover {
+    color: rgb(227, 140, 193);
+    font-size: 40px;
+}
+
+
+.headback{
+    color: rgb(234, 162, 219);
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    text-shadow: 0 0px 5px rgb(0, 0, 0);
+    
+}
+
+.headback:hover {
+    color: rgb(144, 39, 104);
+    font-size: 25px;
+}

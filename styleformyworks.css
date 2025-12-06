@@ -6,3 +6,70 @@ body{
     margin: 0;
     padding: 0; 
 }
+
+#nav{
+    padding-left: 20px;
+    background-color: aliceblue;
+    width:20vw;
+    height:100vh;
+    position:fixed;
+    border-radius: 20px;
+    background-image: linear-gradient(to left top , rgb(255, 202, 170), rgb(231, 151, 192));
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    
+
+}
+
+#back{
+
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(78, 15, 44);
+    font-size: 50px;
+    
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 0 5px rgb(129, 66, 101);
+}
+.textlist{
+    text-align: left;
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(78, 15, 44);
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+#datacontainer{
+    display: flex;
+    background-image: url("https://images.rawpixel.com/image_social_landscape/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yMy1hZGotMDJfMS5qcGc.jpg");
+    background-size: cover;
+    justify-self: end;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
+    height:100vh;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+.textlist:hover {
+  color: rgb(52, 12, 91);
+}
+
+#back:hover {
+  color: rgb(52, 12, 91);
+
+}
+
+#data{
+    color: rgb(43, 43, 43);
+    text-align: left;
+    padding-left:40px;
+    font-weight: 700;
+   
+}
+
